@@ -15,12 +15,14 @@ article{
     flex: 2;
     overflow-y: auto;
     background-color: lightpink;
+    border: 4mm ridge lightcyan;
     border-radius: 20px;
     
 }
  aside{
     flex: 1;
     overflow-y: auto;
+    border: 4mm ridge lightgray;
     background-color: lightsalmon; 
     border-radius: 20px;
  }

@@ -22,6 +22,7 @@ header li {
 .logo{
     max-width: 200px;
     float: left;
+    margin-left: 80px;
 }
 
 .bannery{
@@ -34,7 +35,7 @@ header li {
 }
 
 .bannerr{
-    font-size: 90px;
+    font-size: 70px;
     color: #FFFFFF;
     margin-top: 170px;
     margin-bottom: 30px;
@@ -54,7 +55,7 @@ header li {
     margin-top: 20px;
     margin-left: 30px;
     border: #C271FF;
-    
+    box-shadow: #071629;
 
 }
 .banner{
@@ -100,7 +101,9 @@ header li {
     padding: 15px 20px;
     color: #FFFFFF;
     background-color: #C271FF;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 140px;
 }
 
 .quote-container{
@@ -131,6 +134,13 @@ header li {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
+.videos h4{
+    color: #C271FF;
+}
+
+.videos p{
+    color: gray;
+}
 
 .videos-card{
     display: flex;
@@ -153,6 +163,7 @@ header li {
 
 .stars p{
     margin-left: 30px;
+    color: #C271FF;
 }
 
 .free-membership{
@@ -188,13 +199,21 @@ header li {
     border: #C271FF;
 }
 
+
+
 .faq{
     padding: 40px 20px;
     background-color: #FFFFFF;
+    
 }
 
 .faq h2{
     text-align: center;
+    font-weight: lighter;
+}
+
+.faq p{
+    color: gray;
 }
 
 .faq-container{
@@ -232,8 +251,15 @@ footer {
     justify-content:right;
     gap: 20px;
     top: 3px;
+
+    margin-right: 100px;
     
 }
+
+.para{
+    color: gray;
+}
+
 
 @media (min-width: 1200) {
     .banner h1 {

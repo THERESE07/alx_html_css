@@ -119,6 +119,35 @@ button{
 }
 
 
+.part3{
+    background-image: url(./images/background2.png);
+   
+    
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+   
+
+}
+
+.paragra{
+    
+    text-align: center;
+    padding-top: 200px;
+    margin: 0%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.cardss{
+    margin: 0px;
+}
+
 
 @media screen and (max-width: 480px){
    

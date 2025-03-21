@@ -48,8 +48,8 @@ a:active {
   
 }
 
-a:hover,
-a:active {
+button:hover,
+button:active {
     opacity: 0.9;
 }
 
@@ -236,8 +236,15 @@ footer{
         font-size: 20px;
     }
 
-    a:hover, a.active{
-        background: none;
+    a:hover,
+    a:active {
+        color: #FF6565; 
+  
+    }
+
+    button:hover,
+    button:active {
+        opacity: 0.9;
     }
 
     #check:checked ~ ul{

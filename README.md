@@ -1,0 +1,1 @@
+This is one of the Alx Projects, it contains one html file and one css file. This project is a front end page which is composed with four sections of main part and a header for menu navigation part and a footer. Thank you
